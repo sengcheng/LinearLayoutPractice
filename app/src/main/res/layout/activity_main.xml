@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+       android:layout_weight="1"
+        android:id="@+id/tvFirstText"
+        android:maxLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Text"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tvSecondText"
+        android:text="HelloWorld"
+       android:maxLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:id="@+id/tvThirdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My first name" />
+    <TextView
+        android:maxLines="1"
+        android:layout_weight="1"
+        android:id="@+id/tvFourText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Second name" />
+
+    <TextView
+        android:maxLines="1"
+        android:layout_weight="1"
+        android:id="@+id/tvFiveText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Birthdate" />
+
+
+
+
+</LinearLayout>
